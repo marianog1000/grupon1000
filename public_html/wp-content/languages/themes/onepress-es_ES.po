@@ -1,0 +1,1399 @@
+# Translation of Themes - OnePress in Spanish (Spain)
+# This file is distributed under the same license as the Themes - OnePress package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2017-01-29 14:31:37+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+"Language: es\n"
+"Project-Id-Version: Themes - OnePress\n"
+
+#. Description of the plugin/theme
+msgid "OnePress is an outstanding creative and flexible WordPress one page theme well suited for business website, portfolio, digital agency, product showcase, freelancers and everyone else who appreciate good design. The theme overall is an elegant and classic one, a fine example of Bootstrap 4 WordPress theme which compatibility with latest version of WooCommerce. (Live preview : http://www.famethemes.com/preview/?theme=OnePress)"
+msgstr "OnePress es un excepcional tema de WordPress de única página creativo y flexible muy apto para sitios de negocios, portafolios, agencia digital, muestrario de productos, autónomos y cualquier que aprecie el buen diseño. Es un diseño clásico y elegante en general, un buen ejemplo de tema de WordPress en Bootstrap 4 con compatibilidad con WooCommerce. (Vista previa en vivo: http://www.famethemes.com/preview/?theme=OnePress)"
+
+#. #-#-#-#-#  onepress.pot (OnePress 1.3.6)  #-#-#-#-#
+#. Theme Name of the plugin/theme
+#: inc/dashboard.php:327
+msgid "OnePress"
+msgstr "OnePress"
+
+#: inc/dashboard.php:558
+msgid "Are you sure want to copy ?"
+msgstr "¿Estás seguro de que quieres copiar?"
+
+#: inc/dashboard.php:419
+msgid "Recommend Plugins"
+msgstr "Plugins recomendados"
+
+#: inc/dashboard.php:402
+msgid "Your settings copied."
+msgstr "Tus ajustes copiados."
+
+#: inc/dashboard.php:399
+msgid "Copy now"
+msgstr "Copiar ahora"
+
+#: inc/dashboard.php:391
+msgid "To Theme"
+msgstr "Al tema"
+
+#: inc/dashboard.php:385
+msgid "From Theme"
+msgstr "Desde el tema"
+
+#: inc/dashboard.php:377
+msgid "You're using %1$s theme, It's a child theme of OnePress"
+msgstr "Estás utilizando el tema %1$s, es un tema hijo de OnePress"
+
+#: inc/dashboard.php:238
+msgid "Details"
+msgstr "Detalles"
+
+#: inc/dashboard.php:166
+msgid "Import Demo Data"
+msgstr "Importar datos de la demo"
+
+#: inc/dashboard.php:166
+msgid "Save time by import our demo data, your website will be set up and ready to customize in minutes. %s"
+msgstr "Ahorra tiempo importando los datos de nuestra demo, tu sitio web estará configurado y listo para ser personalizado en minutos. %s"
+
+#: inc/customizer.php:1528
+msgid "Read More Text"
+msgstr "Texto leer más"
+
+#: inc/customizer.php:1523 section-parts/section-gallery.php:37
+msgid "View More"
+msgstr "Ver más"
+
+#: inc/customizer.php:1513
+msgid "Read More Link"
+msgstr "Enlace leer más"
+
+#: inc/customizer.php:132
+msgid "No sidebar"
+msgstr "Sin barra lateral"
+
+#: inc/customizer.php:131
+msgid "Left sidebar"
+msgstr "Barra lateral izquierda"
+
+#: inc/customizer.php:130
+msgid "Right sidebar"
+msgstr "Barra lateral derecha"
+
+#: inc/customizer.php:126
+msgid "Site Layout"
+msgstr "Plantilla de sitio"
+
+#: functions.php:105
+msgid "Famethemes Demo Importer"
+msgstr "Importador de demos de Famethemes"
+
+#: functions.php:101
+msgid "Contact Form 7"
+msgstr "Contact Form 7"
+
+#: inc/customizer.php:127
+msgid "Site Layout, apply for all pages, exclude home page and custom page templates."
+msgstr "Plantilla de sitio, aplicar a todas las páginas, excluyendo las plantillas de páginas personalizadas y de inicio."
+
+#: functions.php:153
+msgid "WooCommerce Sidebar"
+msgstr "Barra lateral de WooCommerce"
+
+#: inc/customizer.php:1497
+msgid "Enable Lightbox"
+msgstr "Habilitar Lightbox"
+
+#: inc/customizer.php:1347
+msgid "Page"
+msgstr "Página"
+
+#: inc/customizer.php:2040
+msgid "1 Column"
+msgstr "1 columna"
+
+#: inc/customizer.php:1281 section-parts/section-gallery.php:4
+msgid "Gallery"
+msgstr "Galería"
+
+#: inc/customizer.php:1266 section-parts/section-gallery.php:2
+msgid "gallery"
+msgstr "galería"
+
+#: inc/customizer.php:1231
+msgid "Section: Gallery"
+msgstr "Sección: Galería"
+
+#: inc/customizer.php:2925
+msgid "Upgrade to OnePress Plus to unlock this feature."
+msgstr "Actualiza a OnePress Plus para desbloquear esta funcionalidad."
+
+#: inc/customizer.php:1342
+msgid "Select Gallery Source"
+msgstr "Seleccion el origen de la galería"
+
+#: inc/customizer.php:1364
+msgid "Select Gallery Page"
+msgstr "Selecciona la página para la galería"
+
+#: inc/customizer.php:1383
+msgid "Layout"
+msgstr "Diseño"
+
+#: inc/customizer.php:1388
+msgid "Default, inside container"
+msgstr "Por defecto, dentro del contenedor"
+
+#: inc/customizer.php:1403
+msgid "Display"
+msgstr "Presentación"
+
+#: inc/customizer.php:1408
+msgid "Grid"
+msgstr "Rejilla"
+
+#: inc/customizer.php:1442
+msgid "Row Height"
+msgstr "Altura de la fila"
+
+#: inc/customizer.php:1426
+msgid "Item Spacing"
+msgstr "Espaciado del elemento"
+
+#: inc/customizer.php:1483
+msgid "Number items"
+msgstr "Número de elementos"
+
+#: inc/customizer.php:1458
+msgid "Layout columns"
+msgstr "Diseño en columnas"
+
+#: inc/customizer.php:1412
+msgid "Masonry"
+msgstr "Masonry"
+
+#: inc/customizer.php:1411
+msgid "Justified"
+msgstr "Justificada"
+
+#: inc/customizer.php:1410
+msgid "Slider"
+msgstr "Deslizador"
+
+#: inc/customizer.php:1409
+msgid "Carousel"
+msgstr "Carrusel"
+
+#: inc/customizer.php:1369
+msgid "Select a page which have content contain [gallery] shortcode."
+msgstr "Selecciona una página cuyo contenido tenga el código abreviado [gallery]"
+
+#: inc/customizer.php:385
+msgid "Scroll to top when click to the site logo or site title, only apply on front page."
+msgstr "Desplazar hasta arriba cuando haga clic en el logo o el título del sitio, aplicable únicamente a la página de portada."
+
+#: inc/dashboard.php:218 inc/dashboard.php:519
+msgid "Active Now"
+msgstr "Activar ahora"
+
+#: inc/dashboard.php:196 inc/dashboard.php:497
+msgid "Install Now"
+msgstr "Instalar ahora"
+
+#: inc/customizer.php:1065
+msgid "Button #2 style"
+msgstr "Estilo del botón #2"
+
+#: inc/dashboard.php:538
+msgid "FameThemes Demo Importer"
+msgstr "Importador demo FameThemes"
+
+#: inc/dashboard.php:535
+msgid "%1$s you will need to install and activate the %2$s plugin first."
+msgstr "%1$s necesitarás instalar y activar primero el plugin %2$s."
+
+#: inc/dashboard.php:329
+msgid "One Click Demo Import"
+msgstr "Importar demo en un clic"
+
+#: inc/dashboard.php:537
+msgid "Hey."
+msgstr "Eh."
+
+#: inc/customizer.php:1018 inc/customizer.php:1071
+msgid "Button"
+msgstr "Botón"
+
+#: inc/customizer.php:1017 inc/customizer.php:1070
+msgid "Button Secondary"
+msgstr "Botón secundario"
+
+#: inc/customizer.php:1016 inc/customizer.php:1069
+msgid "Button Primary"
+msgstr "Botón principal"
+
+#: inc/customizer.php:1012
+msgid "Button #1 style"
+msgstr "Estilo del botón #1"
+
+#: inc/customizer.php:2586
+msgid "More News Button Text"
+msgstr "Texto del botón más noticias"
+
+#: inc/customizer.php:1023 inc/customizer.php:1076
+msgid "Danger"
+msgstr "Peligro"
+
+#: inc/customizer.php:1022 inc/customizer.php:1075
+msgid "Warning"
+msgstr "Advertencia"
+
+#: inc/customizer.php:1021 inc/customizer.php:1074
+msgid "Info"
+msgstr "Información"
+
+#: inc/customizer.php:1020 inc/customizer.php:1073
+msgid "Success"
+msgstr "Satisfactorio"
+
+#: inc/customizer.php:1019 inc/customizer.php:1072
+msgid "Primary"
+msgstr "Principal"
+
+#: inc/customizer.php:759
+msgid "The delay between the changing of each phrase in milliseconds."
+msgstr "El retardo en milisegundos entre cambios de cada frase."
+
+#: inc/customizer.php:2575
+msgid "It should be your blog page link."
+msgstr "Debe ser el enlace a tu página del blog."
+
+#: inc/customizer.php:703
+msgid "The hero content padding bottom in percent (%)."
+msgstr "El espacio de relleno inferior del contenido Hero en porcentaje (%)."
+
+#: inc/customizer.php:687
+msgid "The hero content padding top in percent (%)."
+msgstr "El espacio de relleno superior del contenido Hero en porcentaje (%). "
+
+#: inc/customizer.php:540
+msgid "The newsletter form use MailChimp, please follow <a target=\"_blank\" href=\"http://goo.gl/uRVIst\">this guide</a> to know how to get MailChimp Action URL. Example <i>//famethemes.us8.list-manage.com/subscribe/post?u=521c400d049a59a4b9c0550c2&amp;id=83187e0006</i>"
+msgstr "El formulario del boletín de noticias utiliza MailChimp, sigue esta <a target=\"_blank\" href=\"http://goo.gl/uRVIst\">guía</a> para saber cómo obtener la URL de acción de MailChimp. Por ejemplo <i>//famethemes.us8.list-manage.com/subscribe/post?u=521c400d049a59a4b9c0550c2&amp;id=83187e0006</i>"
+
+#: inc/customizer.php:217
+msgid "Footer Background"
+msgstr "Fondo del pie de página"
+
+#: inc/customizer.php:84
+msgid "Hide site tagline"
+msgstr "Ocultar descripción del sitio"
+
+#: inc/customizer.php:69
+msgid "Hide site title"
+msgstr "Ocultar título del sitio"
+
+#: inc/customizer.php:232
+msgid "Footer Info Background"
+msgstr "Fondo de la información del pie de página"
+
+#: inc/customizer.php:1873 inc/customizer.php:2083
+msgid "image"
+msgstr "Imagen"
+
+#: inc/customizer.php:739
+msgid "Text animation"
+msgstr "Animación del texto"
+
+#: inc/dashboard.php:132
+msgid "OnePress Theme %s"
+msgstr "Tema OnePress %s"
+
+#: inc/dashboard.php:130
+msgid "%1$s action required"
+msgid_plural "%1$s actions required"
+msgstr[0] "Requiere %1$s acción"
+msgstr[1] "Requiere %1$s acciones"
+
+#: inc/customizer.php:553 inc/customizer.php:571
+msgid "Custom CSS"
+msgstr "CSS personalizado"
+
+#: section-parts/section-features.php:5
+msgid "Why choose Us"
+msgstr "Por qué elegirnos"
+
+#: inc/customizer.php:2032
+msgid "Services Layout Setting"
+msgstr "Configuración diseño de servicios"
+
+#: inc/customizer.php:1891 inc/customizer.php:2425
+msgid "Custom Link"
+msgstr "Enlace personalizado"
+
+#: inc/customizer.php:1887
+msgid "Description"
+msgstr "Decripción"
+
+#: inc/customizer.php:1856
+msgid "Features content"
+msgstr "Contenido funcionalidades"
+
+#: inc/customizer.php:1820
+msgid "Features Layout Setting"
+msgstr "Configuración diseño de funcionalidades"
+
+#: inc/customizer.php:1767 section-parts/section-features.php:4
+msgid "Features"
+msgstr "Funcionalidades"
+
+#: inc/customizer.php:1752 section-parts/section-features.php:2
+msgid "features"
+msgstr "funcionalidades"
+
+#: inc/customizer.php:1717
+msgid "Section: Features"
+msgstr "Sección: Funcionalidades"
+
+#: inc/customizer.php:1318 inc/customizer.php:1629 inc/customizer.php:1804
+#: inc/customizer.php:2015 inc/customizer.php:2204 inc/customizer.php:2360
+#: inc/customizer.php:2530 inc/customizer.php:2685
+msgid "Section Description"
+msgstr "Descripción de la sección"
+
+#: inc/customizer.php:933
+msgid "Layout 1"
+msgstr "Plantilla 1"
+
+#: inc/customizer.php:934
+msgid "Layout 2"
+msgstr "Plantilla 2"
+
+#: inc/customizer.php:1096
+msgid "Content Text"
+msgstr "Texto del contenido"
+
+#: inc/customizer.php:1114 inc/customizer.php:1882 inc/customizer.php:2092
+msgid "Image"
+msgstr "Image"
+
+#: inc/customizer.php:928
+msgid "Display Layout"
+msgstr "Diseño de presentación"
+
+#: inc/customizer.php:473 inc/customizer.php:1872 inc/customizer.php:1877
+#: inc/customizer.php:2082 inc/customizer.php:2087
+msgid "Icon"
+msgstr "Ícono"
+
+#: inc/customizer.php:477
+msgid "URL"
+msgstr "URL"
+
+#: inc/customizer.php:469
+msgid "Social network"
+msgstr "Red social"
+
+#: footer.php:34
+msgid "Subscribe"
+msgstr "Suscribirme"
+
+#: inc/customizer.php:460
+msgid "Socials"
+msgstr "Redes Sociales"
+
+#: inc/customizer.php:369
+msgid "Header Transparent"
+msgstr "Cabecera transparente"
+
+#: footer.php:33
+msgid "Enter your e-mail address"
+msgstr "Introduce tu correo electrónico"
+
+#: inc/customizer.php:371
+msgid "Apply for front page template only."
+msgstr "Aplicable únicamente a la plantilla de portada."
+
+#: inc/customizer.php:1827 inc/customizer.php:2039 inc/customizer.php:2383
+msgid "2 Columns"
+msgstr "2 columnas"
+
+#: inc/dashboard.php:349
+msgid "OnePress Documentation"
+msgstr "Documentación de OnePress"
+
+#: inc/dashboard.php:355
+msgid "Support for %s WordPress theme is conducted through FameThemes support ticket system."
+msgstr "El soporte para el tema de WordPress %s es dirigido a través del sistema de tickets de soporte de FameThemes."
+
+#: inc/customizer.php:1705 inc/customizer.php:1916
+msgid "Page Excerpt"
+msgstr "Extracto Página"
+
+#: inc/customizer.php:1825 inc/customizer.php:2037 inc/customizer.php:2381
+msgid "4 Columns"
+msgstr "4 Columnas"
+
+#: inc/customizer.php:1826 inc/customizer.php:2038 inc/customizer.php:2382
+msgid "3 Columns"
+msgstr "3 Columnas"
+
+#: inc/customizer.php:277
+msgid "Only set if you don't use an image logo."
+msgstr "Establecelo únicamente si no utilizas una imagen de logotipo"
+
+#: inc/customizer.php:2376
+msgid "Team Layout Setting"
+msgstr "Configuración diseño del equipo"
+
+#: inc/customizer.php:1704 inc/customizer.php:1915
+msgid "Full Page Content"
+msgstr "Contenido a página completa"
+
+#: inc/customizer.php:1660
+msgid "About content page"
+msgstr "Páginas del contenido de Acerca de"
+
+#: inc/customizer.php:354
+msgid "If you use logo and your logo is too tall, check this box to auto vertical align menu."
+msgstr "Si utilizas logotipo y este es muy alto, marca esta opción para auto alinear verticalmente el menú."
+
+#: inc/customizer.php:352
+msgid "Center vertical align for menu"
+msgstr "Alineado central vertical para el menú"
+
+#: inc/customizer.php:336
+msgid "Responsive Menu Button Color"
+msgstr "Color del botón adaptable de menú"
+
+#: inc/customizer.php:290
+msgid "Menu Link Color"
+msgstr "Color del enlace en menú"
+
+#: inc/customizer.php:321
+msgid "Menu Link Hover/Active BG Color"
+msgstr "Color de fondo del enlace de menú al pasar el ratón/activo"
+
+#: inc/customizer.php:305
+msgid "Menu Link Hover/Active Color"
+msgstr "Color del enlace de menú al pasar el ratón/activo"
+
+#: inc/customizer.php:1699 inc/customizer.php:1910
+msgid "Item content source"
+msgstr "Fuente del contenido del elemento "
+
+#: inc/customizer.php:884
+msgid "Enable parallax effect (apply for first BG image only)"
+msgstr "Habilitar efecto parallax (aplicar únicamente a la primera imagen de fondo)"
+
+#: inc/customizer.php:275
+msgid "Site Title Color"
+msgstr "Color del título del sitio"
+
+#: inc/customizer.php:259
+msgid "Background Color"
+msgstr "Color del fondo"
+
+#: inc/customizer.php:201
+msgid "Primary Color"
+msgstr "Color Primario"
+
+#: inc/customizer.php:244
+msgid "Header"
+msgstr "Encabezado"
+
+#: inc/customizer.php:192
+msgid "Site Colors"
+msgstr "Colores del sitio"
+
+#: inc/customizer.php:2420
+msgid "User media"
+msgstr "Multimedia usuario"
+
+#: inc/customizer.php:1219
+msgid "Background image"
+msgstr "Imagen de fondo"
+
+#: inc/customizer.php:1129
+msgid "Section: Video Lightbox"
+msgstr "Sección: Video Lightbox"
+
+#: inc/customizer.php:1204
+msgid "Paste Youtube or Vimeo url here"
+msgstr "Pega aquí la url de Youtube o Vimeo"
+
+#: inc/customizer.php:1202
+msgid "Video url"
+msgstr "Url del video"
+
+#: inc/customizer.php:1187
+msgid "Section heading"
+msgstr "Título de la sección"
+
+#: inc/customizer.php:656 inc/customizer.php:1171 inc/customizer.php:1273
+#: inc/customizer.php:1584 inc/customizer.php:1759 inc/customizer.php:2159
+#: inc/customizer.php:2485 inc/customizer.php:2640
+msgid "The section id, we will use this for link anchor."
+msgstr "El id de la sección, lo utilizaremos para el anclaje del enlace"
+
+#: inc/dashboard.php:482
+msgid "Hooray! There are no required actions for you right now."
+msgstr "¡Hurra! En este momento no es necesaria ninguna medida."
+
+#: inc/dashboard.php:472
+msgid "Change homepage page template"
+msgstr "Cambia la plantilla de la página de inicio"
+
+#: inc/dashboard.php:481
+msgid "Keep update with %s"
+msgstr "Mantén actualizado %s"
+
+#: inc/dashboard.php:441 inc/dashboard.php:465
+msgid "Setup front page displays"
+msgstr "Establece el diseño de la página frontal"
+
+#: inc/dashboard.php:455
+msgid "Set your homepage page template to \"Frontpage\"."
+msgstr "Establece la plantilla de tu página de inicio a \"Portada\"."
+
+#: inc/dashboard.php:438
+msgid "In order to have the one page look for your website, please go to Customize -&gt; Static Front Page and switch \"Front page displays\" to \"A static page\"."
+msgstr "En caso de querer un aspecto de página única para tu sitio, por favor, ve a Personalizar -&gt Portada estática y cambia \"Página frontal muestra\" a \"Una página estática\"."
+
+#: inc/dashboard.php:458
+msgid "In order to change homepage section contents, you will need to set template \"Frontpage\" for your homepage."
+msgstr "En caso de querer cambiar el contenido de las secciones de la página de inicio, necesitarás establecer para tu página de inicio la plantilla \"Portada\"."
+
+#: inc/dashboard.php:436
+msgid "Switch \"Front page displays\" to \"A static page\""
+msgstr "Cambia \"Diseño de portada\" a \"Una página estática\""
+
+#: inc/dashboard.php:429 inc/dashboard.php:448
+msgid "Dismiss"
+msgstr "Cerrar"
+
+#: inc/dashboard.php:323
+msgid "Welcome to OnePress - Version %1s"
+msgstr "Bienvenido a OnePress - Versión %1s"
+
+#: inc/dashboard.php:137
+msgid "OnePress Dashboard"
+msgstr "Escritorio OnePress"
+
+#: inc/customizer.php:586
+msgid "Section Order & Styling"
+msgstr "Sección Orden y estilos"
+
+#: inc/dashboard.php:328
+msgid "Actions Required"
+msgstr "Acciones requeridas"
+
+#: inc/dashboard.php:134
+msgid "OnePress Theme"
+msgstr "Tema OnePress"
+
+#: inc/customizer.php:147
+msgid "Disable Sticky Header?"
+msgstr "¿Deshabilitar la cabecera fija?"
+
+#: inc/customizer.php:149
+msgid "Check this box to disable sticky header when scroll."
+msgstr "Marca esta opción para deshabilitar la cabecera fija cuando desplazas."
+
+#: inc/customizer.php:865
+msgid "Background Overlay Color"
+msgstr "Color superpuesto del fondo"
+
+#: inc/dashboard.php:157
+msgid "Welcome! Thank you for choosing %1$s! To fully take advantage of the best our theme can offer please make sure you visit our <a href=\"%2$s\">Welcome page</a>"
+msgstr "¡Bienvenido! ¡Gracias por elegir %1$s! Para aprovechar al máximo lo mejor que nuestro tema puede ofrecer, por favor, asegúrate de visitar nuestra <a href=\"%2$s\">Página de bienvenida</a>"
+
+#. Template Name of the plugin/theme
+msgid "Left Sidebar"
+msgstr "Barra lateral izquierda"
+
+#. Template Name of the plugin/theme
+msgid "Frontpage"
+msgstr "Portada"
+
+#. #-#-#-#-#  onepress.pot (OnePress 1.3.6)  #-#-#-#-#
+#. Template Name of the plugin/theme
+#: inc/customizer.php:1389
+msgid "Full Width"
+msgstr "Anchura Completa"
+
+#: template-parts/content-none.php:27
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr "Parece que no podemos encontrar lo que estas buscando. Tal vez, continuar buscando pueda ayudar."
+
+#: template-parts/content-none.php:22
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr "Disculpa, pero no se encontró ninguna coincidencia con sus términos de búsqueda. Por favor, pruebe de nuevo con otras palabras clave."
+
+#: template-parts/content-none.php:18
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr "¿Preparado para publicar tu primera entrada? <a href=\"%1$s\">Comienza aquí</a>."
+
+#: template-parts/content-none.php:14
+msgid "Nothing Found"
+msgstr "No se encontró nada"
+
+#: section-parts/section-hero.php:80
+msgid "#services"
+msgstr "#servicios"
+
+#: section-parts/section-contact.php:48
+msgid "You can install %1$s plugin and go to Customizer &rarr; Section: Contact &rarr; Section Content to show a working contact form here."
+msgstr "Puedes instalar el plugin %1$s e ir a Personalizar &rarr; Sección: Contacto &rarr; Contenido de la sección para mostrar aquí un formulario en funcionamiento."
+
+#: template-parts/content-list.php:38 template-parts/content-page.php:21
+#: template-parts/content-single.php:25 template-parts/content.php:39
+msgid "Pages:"
+msgstr "Páginas:"
+
+#: search.php:16
+msgid "Search Results for: %s"
+msgstr "Buscar el resultado para: %s"
+
+#: inc/template-tags.php:248
+msgid "Your comment is awaiting moderation."
+msgstr "Su comentario se ha enviado al moderador."
+
+#: inc/template-tags.php:243
+msgid "Edit"
+msgstr "corregir"
+
+#. translators: 1: date, 2: time
+#: inc/template-tags.php:240
+msgid "%1$s"
+msgstr "%1$s"
+
+#: inc/template-tags.php:242
+msgid "Reply"
+msgstr "Contestar"
+
+#: inc/template-tags.php:234
+msgid "Post author"
+msgstr "Autor del artículo"
+
+#: inc/template-tags.php:215
+msgid "(Edit)"
+msgstr "(Edit)"
+
+#: inc/template-tags.php:215
+msgid "Pingback:"
+msgstr "Pingback: "
+
+#: inc/template-tags.php:144
+msgid "% Comments"
+msgstr "% comentarios"
+
+#: inc/template-tags.php:144
+msgid "1 Comment"
+msgstr "1 comentario"
+
+#: inc/template-tags.php:144
+msgid "Leave a comment"
+msgstr "Deje su comentario"
+
+#: inc/template-tags.php:138
+msgid "Tagged %1$s"
+msgstr "Etiquetado con %1$s"
+
+#: inc/template-tags.php:132
+msgid "Posted in %1$s"
+msgstr "Publicado el %1$s"
+
+#. translators: used between list items, there is a space after the comma
+#: inc/template-tags.php:130 inc/template-tags.php:136
+msgid ", "
+msgstr ", "
+
+#: inc/template-tags.php:112
+msgctxt "post author"
+msgid "by %s"
+msgstr "por %s"
+
+#: inc/template-tags.php:107
+msgctxt "post date"
+msgid "Posted on %s"
+msgstr "Públicado en %s"
+
+#: inc/dashboard.php:354
+msgid "Having Trouble, Need Support?"
+msgstr "Estás en problemas, ¿necesitas soporte?"
+
+#: inc/dashboard.php:347
+msgid "Need any help to setup and configure %s? Please have a look at our documentations instructions."
+msgstr "¿Necesitas alguna ayuda para configurar %s? Echa un vistazo por favor a nuestras documentaciones de instrucciones."
+
+#: inc/customizer.php:2840
+msgid "Fax"
+msgstr "El Fax"
+
+#: inc/dashboard.php:346
+msgid "Theme Documentation"
+msgstr "Documentación del Tema"
+
+#: inc/dashboard.php:342
+msgid "Start Customize"
+msgstr "Comenzar a personalizar"
+
+#: inc/dashboard.php:340
+msgid "%s supports the Theme Customizer for all theme settings. Click \"Customize\" to start customize your site."
+msgstr "%s soporta el personalizador de temas para todos los parámetros del mismo. Haz clic en \"Personalizar\" para personalizar tu sitio."
+
+#: inc/dashboard.php:339
+msgid "Theme Customizer"
+msgstr "Personalizador del tema"
+
+#: inc/dashboard.php:324
+msgid "OnePress is a creative and flexible WordPress ONE PAGE theme well suited for business, portfolio, digital agency, product showcase, freelancers websites."
+msgstr "OnePress es un tema de WordPress de única página creativo y flexible, muy apropiado para negocios, portafolios, agencia digital, muestrario de producto, y sitios web de autónomos."
+
+#: inc/customizer.php:2825
+msgid "Email"
+msgstr "Correo electronico"
+
+#: inc/customizer.php:2810
+msgid "Phone"
+msgstr "Telefono"
+
+#: inc/customizer.php:2648 section-parts/section-contact.php:4
+msgid "Get in touch"
+msgstr "Contáctenos"
+
+#: inc/customizer.php:2795
+msgid "Address"
+msgstr "Sustantivo"
+
+#: inc/customizer.php:2780
+msgid "Contact Box Title"
+msgstr "Titulo del área de contacto"
+
+#: inc/customizer.php:2756
+msgid "Contact Text"
+msgstr "Texto de contacto"
+
+#: inc/customizer.php:2741
+msgid "Check this box to hide contact form."
+msgstr "Marca esta opción para ocultar el formulario de contacto."
+
+#: inc/customizer.php:2739
+msgid "Hide contact form completely."
+msgstr "Ocultar el formulario de contacto completamente."
+
+#: inc/customizer.php:2723
+msgid "Contact Form 7 Shortcode."
+msgstr "Shortcode para el formulario Contact Form 7"
+
+#: inc/customizer.php:2493 section-parts/section-news.php:4
+msgid "Latest News"
+msgstr "Últimas noticias"
+
+#: inc/customizer.php:2633 section-parts/section-contact.php:2
+msgid "contact"
+msgstr "contacto"
+
+#: inc/customizer.php:2598
+msgid "Section: Contact"
+msgstr "Sección: Contacto"
+
+#: inc/customizer.php:2581 section-parts/section-news.php:8
+msgid "Read Our Blog"
+msgstr "Lee nuestro blog"
+
+#: inc/customizer.php:2478 section-parts/section-news.php:2
+msgid "news"
+msgstr "noticias"
+
+#: inc/customizer.php:2443
+msgid "Section: News"
+msgstr "Sección: Noticias"
+
+#: inc/customizer.php:2573
+msgid "More News button link"
+msgstr "Enlace del botón Más noticias"
+
+#: inc/customizer.php:2558
+msgid "Number of post to show"
+msgstr "Número de entradas a mostrar"
+
+#: inc/customizer.php:2411
+msgid "Team members"
+msgstr "Miembros del equipo"
+
+#: inc/customizer.php:2323 section-parts/section-team.php:4
+msgid "Our Team"
+msgstr "Nuestro equipo"
+
+#: inc/customizer.php:2308 section-parts/section-team.php:2
+msgid "team"
+msgstr "equipo"
+
+#: inc/customizer.php:2274
+msgid "Section: Team"
+msgstr "Sección: Equipo"
+
+#: inc/customizer.php:2258
+msgid "After number"
+msgstr "Después del número"
+
+#: inc/customizer.php:2253
+msgid "Before number"
+msgstr "Antes del número"
+
+#: inc/customizer.php:2248
+msgid "Number"
+msgstr "Número"
+
+#: inc/customizer.php:2245
+msgid "Your counter label"
+msgstr "Etiqueta de tu contador"
+
+#: inc/customizer.php:1865 inc/customizer.php:2242
+msgid "Title"
+msgstr "Título"
+
+#: inc/customizer.php:2233
+msgid "Counter content"
+msgstr "Contenido del contador"
+
+#: inc/customizer.php:1671 inc/customizer.php:2098
+msgid "Select a page"
+msgstr "Selecciona una página"
+
+#: inc/customizer.php:1963 section-parts/section-services.php:2
+msgid "services"
+msgstr "Servicios"
+
+#: inc/customizer.php:2167 section-parts/section-counter.php:4
+msgid "Our Numbers"
+msgstr "Nuestros números"
+
+#: inc/customizer.php:2152 section-parts/section-counter.php:2
+msgid "counter"
+msgstr "contador"
+
+#: inc/customizer.php:2118
+msgid "Section: Counter"
+msgstr "Sección: Contadores"
+
+#: inc/customizer.php:1928
+msgid "Section: Services"
+msgstr "Sección: Servicios"
+
+#: inc/customizer.php:1327 inc/customizer.php:1639 inc/customizer.php:1836
+#: inc/customizer.php:2049 inc/customizer.php:2213 inc/customizer.php:2391
+#: inc/customizer.php:2695
+msgid "Section Content"
+msgstr "Contenido de la sección"
+
+#: inc/customizer.php:1301 inc/customizer.php:1612 inc/customizer.php:1787
+#: inc/customizer.php:1998 inc/customizer.php:2187 inc/customizer.php:2343
+#: inc/customizer.php:2513 inc/customizer.php:2668
+msgid "Section Subtitle"
+msgstr "Subtítulo de la sección"
+
+#: inc/customizer.php:1296 inc/customizer.php:1607 inc/customizer.php:1782
+#: inc/customizer.php:1993 inc/customizer.php:2182 inc/customizer.php:2338
+#: inc/customizer.php:2508 inc/customizer.php:2663
+#: section-parts/section-about.php:5 section-parts/section-contact.php:5
+#: section-parts/section-counter.php:5 section-parts/section-gallery.php:5
+#: section-parts/section-news.php:5 section-parts/section-services.php:5
+#: section-parts/section-team.php:5
+msgid "Section subtitle"
+msgstr "Subtítulo de la sección"
+
+#: inc/customizer.php:1286 inc/customizer.php:1597 inc/customizer.php:1772
+#: inc/customizer.php:1983 inc/customizer.php:2172 inc/customizer.php:2328
+#: inc/customizer.php:2498 inc/customizer.php:2653
+msgid "Section Title"
+msgstr "Título de la sección"
+
+#: inc/customizer.php:1869 inc/customizer.php:2079
+msgid "Custom icon"
+msgstr "Icono personalizado"
+
+#: inc/customizer.php:2069
+msgid "Service content"
+msgstr "Contenido de servicios"
+
+#: inc/customizer.php:1978 section-parts/section-hero.php:79
+#: section-parts/section-services.php:4
+msgid "Our Services"
+msgstr "Nuestros servicios"
+
+#: inc/customizer.php:1676
+msgid "Hide item title"
+msgstr "Ocultar título del elemento"
+
+#: inc/customizer.php:1680 inc/customizer.php:2103
+msgid "Link to single page"
+msgstr "Enlace a página única"
+
+#: inc/customizer.php:464 inc/customizer.php:1664 inc/customizer.php:1860
+#: inc/customizer.php:2073 inc/customizer.php:2237 inc/customizer.php:2415
+msgid "[live_title]"
+msgstr "[live_title]"
+
+#: inc/customizer.php:1577 section-parts/section-about.php:2
+msgid "about"
+msgstr "Acerca de"
+
+#: inc/customizer.php:1542
+msgid "Section: About"
+msgstr "Sección: Acerca de"
+
+#: inc/customizer.php:1037
+msgid "Button #2 Text"
+msgstr "Texto del botón #2"
+
+#: inc/customizer.php:1138 inc/customizer.php:1240 inc/customizer.php:1551
+#: inc/customizer.php:1726 inc/customizer.php:1937 inc/customizer.php:2127
+#: inc/customizer.php:2283 inc/customizer.php:2452 inc/customizer.php:2607
+msgid "Section Settings"
+msgstr "Parámetros de la sección"
+
+#: inc/customizer.php:1051
+msgid "Button #2 Link"
+msgstr "Enlace botón #2"
+
+#: inc/customizer.php:1046 section-parts/section-hero.php:82
+msgid "#contact"
+msgstr "#contacto"
+
+#: inc/customizer.php:980 inc/customizer.php:1592
+#: section-parts/section-about.php:4
+msgid "About Us"
+msgstr "Sobre nosotros"
+
+#: inc/customizer.php:994
+msgid "#about"
+msgstr "#acerca de"
+
+#: inc/customizer.php:985
+msgid "Button #1 Text"
+msgstr "Texto botón #1"
+
+#: inc/customizer.php:999
+msgid "Button #1 Link"
+msgstr "Enlace botón #1"
+
+#: inc/customizer.php:1032 section-parts/section-hero.php:81
+msgid "Get Started"
+msgstr "Comencemos"
+
+#: inc/customizer.php:969
+msgid "Small Text"
+msgstr "Texto pequeño"
+
+#: inc/customizer.php:952
+msgid "Large Text"
+msgstr "Texto grande"
+
+#: inc/customizer.php:972
+msgid "You can use text rotate slider in this textarea too."
+msgstr "También puedes utilizar en esta área de texto el deslizador de texto rotativo."
+
+#: inc/customizer.php:954
+msgid "Text Rotating Guide: Put your rotate texts separate by \"|\" into <span class=\"js-rotating\">...</span>, go to Customizer->Site Option->Animate to control rotate animation."
+msgstr "Guía del texto rotativo: coloca tus textos rotativos separados por \" | \" dentro de <span class=\"js-rotating\">...</span>, para controlar la animación rotativa ir a Personalizar->Opciones del sitio->Animar."
+
+#: inc/customizer.php:912
+msgid "Hero Content Layout"
+msgstr "Diseño del contenido Hero"
+
+#: inc/customizer.php:839
+msgid "Background Image"
+msgstr "Imagen de fondo"
+
+#: inc/customizer.php:680 inc/customizer.php:696
+msgid "10"
+msgstr "10"
+
+#: inc/customizer.php:654 inc/customizer.php:1169 inc/customizer.php:1271
+#: inc/customizer.php:1582 inc/customizer.php:1757 inc/customizer.php:1968
+#: inc/customizer.php:2157 inc/customizer.php:2313 inc/customizer.php:2483
+#: inc/customizer.php:2638
+msgid "Section ID:"
+msgstr "ID de la sección:"
+
+#: inc/customizer.php:642 inc/customizer.php:1156 inc/customizer.php:1258
+#: inc/customizer.php:1569 inc/customizer.php:1744 inc/customizer.php:1955
+#: inc/customizer.php:2144 inc/customizer.php:2301 inc/customizer.php:2470
+#: inc/customizer.php:2625
+msgid "Check this box to hide this section."
+msgstr "Marca esta opción para ocultar esta sección."
+
+#: inc/customizer.php:830
+msgid "Background Images"
+msgstr "Imágenes de fondo"
+
+#: inc/customizer.php:672
+msgid "Check this box to make hero section full screen."
+msgstr "Marca esta opción para hacer la sección Hero a pantalla completa."
+
+#: inc/customizer.php:670
+msgid "Make hero section full screen"
+msgstr "Hacer la sección Hero a pantalla completa"
+
+#: inc/customizer.php:804
+msgid "Hero Background Media"
+msgstr "Multimedia del fondo de Hero"
+
+#: inc/customizer.php:701
+msgid "Padding Bottom:"
+msgstr "Espacio de relleno inferior:"
+
+#: inc/customizer.php:685
+msgid "Padding Top:"
+msgstr "Espacio de relleno superior:"
+
+#: inc/customizer.php:649 section-parts/section-hero.php:2
+msgid "hero"
+msgstr "hero"
+
+#: inc/customizer.php:834
+msgid "Background"
+msgstr "Fondo"
+
+#: inc/customizer.php:640 inc/customizer.php:1154 inc/customizer.php:1256
+#: inc/customizer.php:1567 inc/customizer.php:1742 inc/customizer.php:1953
+#: inc/customizer.php:2142 inc/customizer.php:2299 inc/customizer.php:2468
+#: inc/customizer.php:2623
+msgid "Hide this section?"
+msgstr "¿Ocultar esta sección?"
+
+#: inc/customizer.php:614
+msgid "Section: Hero"
+msgstr "Sección: Hero"
+
+#: inc/customizer.php:624
+msgid "Hero Settings"
+msgstr "Ajustes de Hero"
+
+#: inc/customizer.php:538
+msgid "MailChimp Action URL"
+msgstr "URL de acción de MailChimp"
+
+#: inc/customizer.php:522
+msgid "Newsletter Form Title"
+msgstr "Título del formulario boletín de noticias"
+
+#: inc/customizer.php:508
+msgid "Check this box to hide footer newsletter form."
+msgstr "Marca esta opción para ocultar el formulario de boletín de noticias del pie de página."
+
+#: inc/customizer.php:506
+msgid "Hide Footer Newsletter?"
+msgstr "¿Ocultar el boletín de noticias del pie de página?"
+
+#: inc/customizer.php:491
+msgid "Newsletter"
+msgstr "Boletín de noticias"
+
+#: inc/customizer.php:109
+msgid "Global"
+msgstr "Global"
+
+#: inc/customizer.php:395
+msgid "Social Profiles"
+msgstr "Perfiles sociales"
+
+#: inc/customizer.php:163
+msgid "Disable animation effect?"
+msgstr "¿Deshabilitar el efecto de animación?"
+
+#: inc/customizer.php:440
+msgid "Social Footer Title"
+msgstr "Título del pie de página social"
+
+#: inc/customizer.php:426
+msgid "These social profiles setting below will display at the footer of your site."
+msgstr "Estos ajustes de perfiles sociales establecidos a continuación se mostrarán en el pie de página de su sitio."
+
+#: inc/customizer.php:413
+msgid "Check this box to hide footer social section."
+msgstr "Marca esta opción para ocultar la sección de perfiles sociales del pie de página."
+
+#: inc/customizer.php:411
+msgid "Hide Footer Social?"
+msgstr "¿Ocultar perfiles sociales del pie de página?"
+
+#: inc/customizer.php:182
+msgid "Check this box to hide footer back to top button."
+msgstr "Marca esta opción para ocultar el botón de volver arriba en el pie de página."
+
+#: inc/customizer.php:180
+msgid "Hide footer back to top?"
+msgstr "¿Ocultar volver arriba en el pie de página?"
+
+#: inc/customizer.php:165
+msgid "Check this box to disable all element animation when scroll."
+msgstr "Marca esta opción para deshabilitar la animación de todos los elementos durante el desplazamiento."
+
+#: inc/customizer.php:99
+msgid "Theme Options"
+msgstr "Opciones de Tema"
+
+#: inc/customizer.php:49
+msgid "Select member"
+msgstr "Selecciona un usuario"
+
+#: inc/customizer.php:38
+msgid "Select page"
+msgstr "Selecciona una página"
+
+#: inc/customizer.php:25
+msgid "Site Title, Tagline & Logo"
+msgstr "Título del sitio, descripción y logotipo"
+
+#: inc/customizer-controls.php:675
+msgid "Close"
+msgstr "Cerrado"
+
+#: inc/customizer-controls.php:640
+msgid "Change"
+msgstr "Cambio"
+
+#: inc/customizer-controls.php:640
+msgid "Add"
+msgstr "Adicionar"
+
+#: inc/customizer-controls.php:639 inc/customizer-controls.php:661
+#: inc/customizer-controls.php:673
+msgid "Remove"
+msgstr "Quitar"
+
+#: inc/customizer-controls.php:408 inc/customizer-controls.php:523
+msgid "Item"
+msgstr "Articulo"
+
+#: inc/customizer-controls.php:508
+msgid "Add an item"
+msgstr "Añade un elemento"
+
+#: inc/template-tags.php:73
+msgid "Menu"
+msgstr "Menú"
+
+#: functions.php:371
+msgid "Please contact the administrator of this site for help."
+msgstr "Por favor, contacta con al administrador de este sitio."
+
+#: header.php:25
+msgid "Skip to content"
+msgstr "Saltar contenido"
+
+#: functions.php:368
+msgid "No action taken. Plugin %1$s was already active."
+msgstr "No se realizó ninguna acción. El plugin %1$s ya estaba activado."
+
+#: functions.php:369
+msgid "Plugin not activated. A higher version of %s is needed for this theme. Please update the plugin."
+msgstr "Plugin desactivado. Necesitas una versión superior de %s para este tema. Por favor, actualiza el plugin."
+
+#: functions.php:370
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr "Todos los plugin instalados y activados correctamente. %1$s"
+
+#: functions.php:366
+msgid "Plugin activated successfully."
+msgstr "Plugin activado correctamente."
+
+#: functions.php:367
+msgid "The following plugin was activated successfully:"
+msgstr "El siguiente plugin se ha activado correctamente:"
+
+#: functions.php:364
+msgid "Begin activating plugin"
+msgid_plural "Begin activating plugins"
+msgstr[0] "Comenzar a activar plugin"
+msgstr[1] "Comenzar a activar plugins"
+
+#: functions.php:365
+msgid "Return to Required Plugins Installer"
+msgstr "Volver al instalador de Plugins"
+
+#: functions.php:362
+msgid "Begin installing plugin"
+msgid_plural "Begin installing plugins"
+msgstr[0] "Comenzar a instalar el plugin"
+msgstr[1] "Comenzar a instalar plugins"
+
+#: functions.php:363
+msgid "Begin updating plugin"
+msgid_plural "Begin updating plugins"
+msgstr[0] "Comenzar la actualización del plugin"
+msgstr[1] "Comenzar la actualización de los plugins"
+
+#: functions.php:361
+msgid "Sorry, but you do not have the correct permissions to activate the %1$s plugin."
+msgid_plural "Sorry, but you do not have the correct permissions to activate the %1$s plugins."
+msgstr[0] "Lo siento pero no tienes suficientes permisos para activar el plugin %1$s."
+msgstr[1] "Lo siento pero no tienes suficientes permisos para activar los plugins %1$s."
+
+#: functions.php:360
+msgid "The following recommended plugin is currently inactive: %1$s."
+msgid_plural "The following recommended plugins are currently inactive: %1$s."
+msgstr[0] "El siguiente plugin recomendado está actualmente inactivo: %1$s."
+msgstr[1] "Los siguientes plugins recomendados están actualmente inactivos: %1$s."
+
+#: functions.php:357
+msgid "There is an update available for: %1$s."
+msgid_plural "There are updates available for the following plugins: %1$s."
+msgstr[0] "Hay una actualización disponible para: %1$s."
+msgstr[1] "Hay actualizaciones disponibles para los siguientes plugins: %1$s."
+
+#: functions.php:358
+msgid "Sorry, but you do not have the correct permissions to update the %1$s plugin."
+msgid_plural "Sorry, but you do not have the correct permissions to update the %1$s plugins."
+msgstr[0] "Lo siento pero no tienes suficientes permisos para actualizar el plugin %1$s."
+msgstr[1] "Lo siento pero no tienes suficientes permisos para actualizar los plugins %1$s."
+
+#: functions.php:359
+msgid "The following required plugin is currently inactive: %1$s."
+msgid_plural "The following required plugins are currently inactive: %1$s."
+msgstr[0] "El siguiente plugin requerido está actualmente inactivo: %1$s."
+msgstr[1] "Los siguientes plugins requeridos están actualmente inactivos: %1$s."
+
+#: functions.php:355
+msgid "Sorry, but you do not have the correct permissions to install the %1$s plugin."
+msgid_plural "Sorry, but you do not have the correct permissions to install the %1$s plugins."
+msgstr[0] "Lo siento pero no tienes suficientes permisos para instalar el plugin %1$s."
+msgstr[1] "Lo siento pero no tienes suficientes permisos para instalar los plugins %1$s."
+
+#: functions.php:356
+msgid "The following plugin needs to be updated to its latest version to ensure maximum compatibility with this theme: %1$s."
+msgid_plural "The following plugins need to be updated to their latest version to ensure maximum compatibility with this theme: %1$s."
+msgstr[0] "El siguiente plugin debe actualizarse a la versión más reciente para asegurar la máxima compatibilidad con este tema: %1$s."
+msgstr[1] "Los siguientes plugins necesitan actualizarse a la versión más reciente para asegurar la máxima compatibilidad con este tema: %1$s."
+
+#: functions.php:353
+msgid "This theme requires the following plugin: %1$s."
+msgid_plural "This theme requires the following plugins: %1$s."
+msgstr[0] "Este tema requiere el siguiente plugin: %1$s."
+msgstr[1] "Este tema requiere los siguientes plugins: %1$s."
+
+#: functions.php:354
+msgid "This theme recommends the following plugin: %1$s."
+msgid_plural "This theme recommends the following plugins: %1$s."
+msgstr[0] "Este tema recomienda utilizar el plugin: %1$s."
+msgstr[1] "Este tema recomienda utilizar los plugins: %1$s."
+
+#: functions.php:352
+msgid "Something went wrong with the plugin API."
+msgstr "Algo salió mal con la API del plugin."
+
+#: functions.php:351
+msgid "Installing Plugin: %s"
+msgstr "Instalando plugin: %s"
+
+#: functions.php:350
+msgid "Install Plugins"
+msgstr "Instalar plugins"
+
+#: functions.php:349
+msgid "Install Required Plugins"
+msgstr "Requiere instalar plugins"
+
+#. Translators: If there are characters in your language that are not supported
+#. by Raleway, translate this to 'off'. Do not translate into your own
+#. language.
+#: functions.php:268
+msgctxt "Raleway font: on or off"
+msgid "on"
+msgstr "on"
+
+#. Translators: If there are characters in your language that are not supported
+#. by Open Sans, translate this to 'off'. Do not translate into your own
+#. language.
+#: functions.php:262
+msgctxt "Open Sans font: on or off"
+msgid "on"
+msgstr "el"
+
+#: functions.php:142
+msgid "Sidebar"
+msgstr "Barra lateral"
+
+#: functions.php:59
+msgid "Primary Menu"
+msgstr "Menú primario"
+
+#: inc/template-tags.php:958
+msgid "%1$s theme by %2$s"
+msgstr "Tema %1$s hecho por %2$s"
+
+#: inc/template-tags.php:956
+msgid "Copyright %1$s %2$s %3$s"
+msgstr "Copyright %1$s %2$s %3$s"
+
+#: footer.php:94
+msgid "Back To Top"
+msgstr "Volver arriba"
+
+#: footer.php:19 inc/customizer.php:516
+msgid "Join our Newsletter"
+msgstr "Únete a nuestro boletín de noticias"
+
+#: footer.php:15 inc/customizer.php:434
+msgid "Keep Updated"
+msgstr "Mantente actualizado"
+
+#: comments.php:76
+msgid "Comments are closed."
+msgstr "Los comentarios están cerrados"
+
+#: comments.php:44 comments.php:64
+msgid "Newer Comments"
+msgstr "Comentarios recientes"
+
+#: comments.php:43 comments.php:63
+msgid "Older Comments"
+msgstr "Comentarios antiguos"
+
+#: comments.php:40 comments.php:60
+msgid "Comment navigation"
+msgstr "Comentario de navegación"
+
+#: comments.php:31
+msgctxt "comments title"
+msgid "One thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] "Un comentario sobre &ldquo;%2$s&rdquo;"
+msgstr[1] "%1$s comentarios sobre &ldquo;%2$s&rdquo;"
+
+#. translators: %1$s: smiley
+#: 404.php:51
+msgid "Try looking in the monthly archives. %1$s"
+msgstr "Prueba mirando en los archivos de mes. %1$s"
+
+#: 404.php:34
+msgid "Most Used Categories"
+msgstr "Categorías más utilizadas"
+
+#: 404.php:26
+msgid "It looks like nothing was found at this location. Maybe try one of the links below or a search?"
+msgstr "Parece que no se encontró nada aquí. ¿Quieres probar uno de los enlaces de abajo o una búsqueda?"
+
+#: 404.php:15
+msgid "Oops! That page can&rsquo;t be found."
+msgstr "Uups! Esta página no puede ser encontrada."
+
+#. Author URI of the plugin/theme
+msgid "http://www.famethemes.com"
+msgstr "http://www.famethemes.com"
+
+#. Author of the plugin/theme
+msgid "FameThemes"
+msgstr "FameThemes"
+
+#. Theme URI of the plugin/theme
+msgid "https://www.famethemes.com/themes/onepress/"
+msgstr "https://www.famethemes.com/themes/onepress/"
