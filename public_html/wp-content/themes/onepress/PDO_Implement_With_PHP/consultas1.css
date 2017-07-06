@@ -1,0 +1,68 @@
+ol, ul {
+	line-height:inherit;
+}
+
+a:hover{
+	text-decoration:none;
+}
+
+
+div.container {
+        width: 80%;
+    }
+	
+	
+table th{
+	font-size:inherit;
+	letter-spacing:inherit;
+	text-transform:inherit;
+	
+	
+}
+
+table td{
+	 white-space:normal;
+	
+}
+
+.mdl-data-table{
+	 white-space:normal;
+	
+}
+
+#primary{
+	padding-top:0px;
+	
+}
+
+.footer-subscribe h5{
+
+	font-size: 15px;
+}
+
+/*
+h5.site-footer h5.footer-connect h5.follow-heading {
+    color: #FFFFFF;
+    margin-bottom: 20px;
+    letter-spacing: 0.8px;
+}
+h5.follow-heading{
+    word-break: break-word;
+    word-wrap: break-word;
+}
+h5.follow-heading {
+    text-transform: uppercase;
+    font-size: 15px;
+    font-size: 0.9375rem;
+    font-weight: 700;
+}
+h5.follow-heading {
+    clear: both;
+    font-family: "Raleway", Helvetica, Arial, sans-serif;
+    font-weight: 600;
+    margin-bottom: 15px;
+    margin-bottom: 15px;
+    margin-bottom: 0.9375rem;
+    margin-top: 0;
+    color: #333333;
+}*/

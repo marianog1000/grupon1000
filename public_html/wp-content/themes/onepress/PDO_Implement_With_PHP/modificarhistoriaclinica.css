@@ -1,0 +1,95 @@
+nav{
+	height: inherit; 		
+    line-height:inherit;	
+}	  
+nav{
+	color: inherit;
+	background-color: inherit;
+	width: inherit;
+	height:inherit;
+	line-height: inherit;
+
+}
+
+nav ul a:hover{
+	background-color: inherit;
+	
+}
+
+h1{
+	font-size: inherit;
+	line-height: inherit;
+	margin: inherit;
+}
+		  
+.container{
+	margin:0 auto;
+	max-width:1280px;
+	width:90%
+}
+@media only screen and (min-width: 601px){
+	.container{
+		width:85%
+		}
+	}
+	
+@media only screen and (min-width: 993px){
+	.container{
+		width:90%
+	}
+}
+
+.card{
+	background-color:#5bc0de;
+	
+}
+
+.container .row{
+	margin-left:0px;
+	margin-right:0px;
+	margin-bottom:0px;
+}
+
+input[type="date"]:hover::-webkit-calendar-picker-indicator {
+  color: red;
+}
+input[type="date"]:hover:after {
+  content: " Date Picker ";
+  color: #555;
+  padding-right: 5px;
+}
+input[type="date"]::-webkit-inner-spin-button {
+  /* display: none; <- Crashes Chrome on hover */
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+
+h5.follow-heading{
+	font-weight:700;
+	font-size:15px;
+	letter-spacing: 0.8px;
+    font-family: "Raleway", Helvetica, Arial, sans-serif;
+}
+
+.footer-subscribe input[type="text"]{
+	margin:0px;
+	height:inherit;
+	
+}
+
+	  .waves-effect.waves-blue  {
+     /* The alpha value allows the text and background color
+     of the button to still show through. */
+      background-color: #5bc0de;
+    }
+	
+	.waves-effect.waves-blue a {
+    color: white;
+    text-decoration: none;
+}
+
+	.waves-effect.waves-blue a:hover {
+    color: blue;
+    text-decoration: none;
+}

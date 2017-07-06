@@ -424,3 +424,206 @@ require get_template_directory() . '/inc/dashboard.php';
 
 add_filter('widget_text', 'do_shortcode');
 
+
+
+
+function insertarhc ($atts) { include ( get_stylesheet_directory() .'/PDO_Implement_With_PHP/index.php'); }
+add_shortcode ('miphp', 'insertarhc');
+
+function addrecordhc ($atts) { 
+    include ( get_stylesheet_directory() .'/PDO_Implement_With_PHP/add-records.php');
+ 
+}
+add_shortcode ('addrecord', 'addrecordhc');
+
+function editarhc ($atts) { include ( get_stylesheet_directory() .'/PDO_Implement_With_PHP/edit.php'); }
+add_shortcode ('updatehc', 'editarhc');
+
+
+function deletehiscli ($atts) { include ( get_stylesheet_directory() .'/PDO_Implement_With_PHP/delete.php'); }
+add_shortcode ('deletehc', 'deletehiscli');
+
+function consultaspacientehc ($atts) { include ( get_stylesheet_directory() .'/PDO_Implement_With_PHP/consultasPaciente.php'); }
+add_shortcode ('hcconsultapaciente', 'consultaspacientehc');
+
+function consultasnew ($atts) { include ( get_stylesheet_directory() .'/PDO_Implement_With_PHP/addconsultapaciente.php'); }
+add_shortcode ('newconsulta', 'consultasnew');
+
+function consultashc ($atts) { include ( get_stylesheet_directory() .'/PDO_Implement_With_PHP/consultas.php'); }
+add_shortcode ('hcconsulta', 'consultashc');
+
+
+function editConsulta ($atts) { include ( get_stylesheet_directory() .'/PDO_Implement_With_PHP/editConsultaPaciente.php'); }
+add_shortcode ('editConsultaPaciente', 'editConsulta');
+
+function deleteConsultahc ($atts) { include ( get_stylesheet_directory() .'/PDO_Implement_With_PHP/deleteconsulta.php'); }
+add_shortcode ('deleteconsulta', 'deleteConsultahc');
+
+function visualhc ($atts) { include ( get_stylesheet_directory() .'/PDO_Implement_With_PHP/viewhistoriaclinica.php'); }
+add_shortcode ('visualizarhc', 'visualhc');
+
+function visualconsulta ($atts) { include ( get_stylesheet_directory() .'/PDO_Implement_With_PHP/viewconsulta.php'); }
+add_shortcode ('viewconsulta', 'visualconsulta');
+
+
+function entradas_protegidas($title) {
+    return str_replace('Privado:','', $title); 
+}
+add_filter('the_title','entradas_protegidas');
+
+
+
+function my_custom_login()
+{
+	echo '<link rel="stylesheet" type="text/css" href=" ' . get_stylesheet_directory_uri() . '/login/custom_login_styles.css" />';
+}
+
+add_action('login_head','my_custom_login');
+
+/* Change the Login Logo URL */
+function my_login_logo_url() {
+	return get_bloginfo( 'url' );
+}
+add_filter( 'login_headerurl', 'my_login_logo_url' );
+
+function my_login_logo_url_title() {
+	return get_bloginfo( 'name' ) . ' | ' . get_bloginfo( 'description' );
+}
+add_filter( 'login_headertitle', 'my_login_logo_url_title' );
+
+
+
+
+/*Hide the Login Error Message*/
+function login_error_override()
+{
+	return 'Usuario o Contraseña Incorrectos';
+}
+add_filter('login_errors', 'login_error_override');
+
+/*Change the Redirect URL */
+function admin_login_redirect( $redirect_to, $request, $user ) {
+	global $user;
+		if( isset( $user->roles ) && is_array( $user->roles ) ) {
+			if( in_array( "administrator", $user->roles ) ) {
+				return $redirect_to;
+			} else {
+				return home_url();
+			}
+		}
+		else
+		{
+		return $redirect_to;
+		}
+}
+
+add_filter("login_redirect", "admin_login_redirect", 10, 3);
+
+
+/*Set “Remember Me” To Checked */
+function login_checked_remember_me() {
+	add_filter( 'login_footer', 'rememberme_checked' );
+}
+add_action( 'init', 'login_checked_remember_me' );
+
+function rememberme_checked() {
+	echo "<script>document.getElementById('rememberme').checked = true;</script>";
+}
+
+
+
+
+
+
+function boot_css_hc(){
+	
+	$direccion = "http://localhost/gruponina/";
+	//$direccion = "http://www.gruponinaconsultoriosmedicos.com.ar/";
+
+
+/*	if (get_permalink()==$direccion."nuevahistoriaclinica/"){
+	}
+*/
+	
+	
+	
+	if (get_permalink()==$direccion."modificarhistoriaclinica/" ||
+	get_permalink()==$direccion."nuevahistoriaclinica/" ||
+	get_permalink()==$direccion."borrarhistoriaclinica/" ||
+	get_permalink()==$direccion."nuevaconsulta/" ||
+	get_permalink()==$direccion."modificarconsulta/" ||
+	get_permalink()==$direccion."borrarconsulta/" ||
+	get_permalink()==$direccion."visualizarhistoriaclinica/" ||
+	get_permalink()==$direccion."visualizarconsulta/"){
+	
+		//echo '<link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">';
+		//echo '<link type="text/css" rel="stylesheet" href="'. get_stylesheet_directory_uri() . '/PDO_Implement_With_PHP/materialize/css/materialize.min.css"/>';
+		echo '<link rel="stylesheet prefetch" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.5/css/materialize.min.css">';
+
+  
+
+		echo '<link href="'. get_stylesheet_directory_uri() . '/PDO_Implement_With_PHP/modificarhistoriaclinica.css" rel="stylesheet" type="text/css">';
+		echo '<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">';
+		
+	}
+	if (get_permalink()==$direccion."nuevaconsulta/" ||
+	get_permalink()==$direccion."modificarconsulta/" ||
+	get_permalink()==$direccion."borrarconsulta/" ||
+	get_permalink()==$direccion."visualizarconsulta/"){	
+		echo '
+				<script>
+
+		jQuery(function($) { // 
+		// jQuery code is in here
+				
+				 $("a").click(function () {
+					var txt = $(this).attr("rel");
+					var form = $(\'<form action="consultaspaciente" method="post">\' +
+					  \'<input type="text" name="idd" value=" \' + txt +  \'" />\' +
+					  \'</form>\');
+					$(\'body\').append(form);
+					form.submit();	
+		  });
+		});
+		</script> 
+			';
+
+	}
+
+//	if (get_permalink()=="http://localhost/gruponina/consultas/" ||
+//	get_permalink()=="http://localhost/gruponina/consultaspaciente/"){
+		
+	if (get_permalink()==$direccion."consultas/"){	
+		
+		echo '<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">';
+		echo '<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>';
+		echo '<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>';		
+		
+		
+//echo '<link href="'. get_stylesheet_directory_uri() . '/PDO_Implement_With_PHP/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css">';
+		echo '	 <link rel="stylesheet" href="https://cdn.datatables.net/1.10.15/css/dataTables.material.min.css">';
+		echo '	 <link rel="stylesheet" href="https://cdn.datatables.net/select/1.2.2/css/select.dataTables.min.css">';
+		echo'  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/material-design-lite/1.1.0/material.min.css">';
+		echo '<link href="'. get_stylesheet_directory_uri() . '/PDO_Implement_With_PHP/consultas1.css" rel="stylesheet" type="text/css">';
+		
+	}
+
+	if (get_permalink()==$direccion."historiaclinica/" ||
+	get_permalink()==$direccion."consultaspaciente/"){
+		
+		echo '<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">';
+		echo '<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>';
+		echo '<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>';
+		
+//echo '<link href="'. get_stylesheet_directory_uri() . '/PDO_Implement_With_PHP/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css">';
+		
+		
+		//echo '    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">';
+		echo '	 <link rel="stylesheet" href="https://cdn.datatables.net/1.10.15/css/dataTables.material.min.css">';
+		//echo ' <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/material-design-lite/1.1.0/material.min.css">';
+		echo '	 <link rel="stylesheet" href="https://cdn.datatables.net/select/1.2.2/css/select.dataTables.min.css">';
+		echo'  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/material-design-lite/1.1.0/material.min.css">';
+		echo '<link href="'. get_stylesheet_directory_uri() . '/PDO_Implement_With_PHP/historiaclinica.css" rel="stylesheet" type="text/css">';
+	}
+}
+add_action('wp_head','boot_css_hc');

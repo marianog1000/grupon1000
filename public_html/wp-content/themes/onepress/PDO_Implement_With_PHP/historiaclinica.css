@@ -1,0 +1,48 @@
+ol, ul {
+	line-height:inherit;
+}
+
+a:hover{
+	text-decoration:none;
+}
+
+
+div.container {
+        width: 80%;
+    }
+	
+	
+table th{
+	font-size:inherit;
+	letter-spacing:inherit;
+	text-transform:inherit;
+	
+	
+}
+
+table td{
+	 white-space=normal;
+	
+}
+
+.mdl-data-table{
+	 white-space=normal;
+	
+}
+
+#primary{
+	padding-top:0px;
+	
+}
+
+h5.follow-heading{
+	font-weight:700;
+	font-size:15px;
+	letter-spacing: 0.8px;
+    font-family: "Raleway", Helvetica, Arial, sans-serif;
+}
+
+a{
+	color:white;
+	
+}

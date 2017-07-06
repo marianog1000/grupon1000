@@ -1,0 +1,128 @@
+
+
+body.login {
+  /*background-image: url('login-bg.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center; */
+  
+  background-color: #607D8B;
+}
+
+
+.login h1 {
+    text-align: center;
+    background-color: rgba(255,255,255,.9);
+    border-radius: 10px;
+    -webkit-box-shadow: 10px 10px 10px 0px #636262;
+    -moz-box-shadow: 10px 10px 10px 0px #636262;
+    box-shadow: 10px 10px 10px 0px #636262;
+
+}
+
+.login h1 a {
+  background-image: url('logo_1.png');
+  background-size: 250px 80px; /*Modificar aquí para que coincida con el tamaño del logo */
+  height: 82px; /*Modificar aquí para que coincida con el tamaño del logo */
+  width: 250px; /*Modificar aquí para que coincida con el tamaño del logo */
+}
+
+
+/*TargetIMC Fomato Caja login BOF*/
+body.login div#login form#loginform {
+  background: #004170;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  -webkit-box-shadow: 10px 10px 10px 0px #636262;
+  -moz-box-shadow: 10px 10px 10px 0px #636262;
+  box-shadow: 10px 10px 10px 0px #636262;
+}
+
+/*TargetIMC Fomato Caja Registro BOF*/
+body.login div#login form#registerform {
+  background: #004170;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  -webkit-box-shadow: 10px 10px 10px 0px #636262;
+  -moz-box-shadow: 10px 10px 10px 0px #636262;
+  box-shadow: 10px 10px 10px 0px #636262;
+}
+
+
+/*TargetIMC Fomato Caja Lost Password BOF*/
+body.login div#login form#lostpasswordform {
+  background: #004170;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  -webkit-box-shadow: 10px 10px 10px 0px #636262;
+  -moz-box-shadow: 10px 10px 10px 0px #636262;
+  box-shadow: 10px 10px 10px 0px #636262;
+}
+
+/*TargetIMC Fomato texto etiquetas dentro de la caja BOF*/
+.login label {
+  color: #dddddd;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+/*TargetIMC Fomato caja input BOF*/
+.login form .input, .login input[type=text], .login form input[type=checkbox] {
+  background: #dddddd;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  -webkit-box-shadow: 2px 2px 2px 0px #636262;
+  -moz-box-shadow: 2px 2px 2px 0px #636262;
+  box-shadow: 2px 2px 2px 0px #636262;
+}
+
+/*TargetIMC Fomato texto tiquetas fuera de la caja BOF*/
+.login #nav a, .login #backtoblog a {
+  text-decoration: none;
+  color: #004170;
+  font-weight: bold;
+}
+
+.login #nav a:hover, .login #backtoblog a:hover {
+  color: #00416f;
+  font-weight: bold;
+}
+
+/*TargetIMC Formato caja mensajes BOF*/
+div.updated, .login .message, .press-this #message,
+div.error, .login #login_error {
+  background: #0083CD;
+  color: #ffffff;
+  font-weight: bold;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  -webkit-box-shadow: 10px 10px 10px 0px #636262;
+  -moz-box-shadow: 10px 10px 10px 0px #636262;
+  box-shadow: 10px 10px 10px 0px #636262;
+  border-left: 4px solid #004170;
+}
+
+/*TargetIMC Formato texto mensajes*/
+p, .wp_attachment_details label[for=content] {
+  color: #dddddd;
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 1.5;
+  margin: 1em 0;
+}
+
+
+/* Eliminar el enlace de password olvidado */
+p#nav {
+  display: none;
+}
+
+/* Eliminar el enlace de volver a la Home */
+p#backtoblog {
+  display: none;
+}
